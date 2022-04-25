@@ -1,0 +1,193 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Seccion del menú de navegacion */
+header{
+    height: 50px;
+    padding: 1% 0;
+    background: #efecec;
+}
+
+.menu-navegacion{
+    width: 940px;
+    position: relative;
+    margin: 0 auto; 
+}
+
+#logo{
+    display: inline;
+    position: relative;
+    top: 20px;
+    height: 1rem;
+    width: 1rem;
+}
+
+.name-logo{
+    display: inline;
+    position: relative;
+    top:20px;
+    font-weight: bold;
+}
+
+nav{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+.item-nav{
+    padding: 10px;
+    display: inline;
+}
+
+nav a{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+nav a:hover, .item-redes a:hover{
+    color:dodgerblue;
+    text-decoration: underline;
+}
+
+/* sección de la presentación */
+.presentacion{
+    background: #efecec;    
+}
+
+.presentacion-div{
+    width: 65%;
+    padding: 3rem 0 3rem 3rem;
+    vertical-align: top;
+}
+
+.titulo, .descripcion, .presentacion-div{
+    position: relative;
+    display: inline-block;
+}
+
+.titulo, .descripcion{
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.titulo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.descripcion{
+    font-size: 1.3rem;
+}
+
+.lista{
+    display: inline-block;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.item-redes{
+    display: inline;
+    margin: 0 10px;
+}
+
+.item-redes a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.perfil-photo{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border: 2px solid dodgerblue;
+    border-radius: 10rem;
+    margin-bottom: 1.5rem;
+}
+
+/* seccion de Sbre mi*/
+
+.sobre_mi{
+    background: rgba(30, 144, 255, 0.2);
+    padding: 3rem;
+}
+
+.sobre_mi h2, .sobre_mi p{
+    width: 65%;
+}
+
+.sobre_mi p{
+    font-size: 1rem;
+}
+
+.sobre_mi h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem ;
+}
+
+/* seccion de Skills y hobbies */
+.skillsYhobbies{
+    background: #efecec;
+}
+
+.skillsYhobbies h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+
+.lista_SYH{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.lista_SYH li{
+    background: white;
+    display: inline-block;
+    text-align:center;
+    width: 12%;
+    height: 7rem;
+    vertical-align: top;
+    padding: 30px 5px;
+    box-sizing: border-box;
+    border: 2px solid rgba(30, 144, 255, 0.2);
+    border-radius: 0.5rem;
+    transition: 0.3s all;
+}
+
+.lista_SYH li:hover{
+    background-color: rgba(30, 144, 255, 0.2);
+    border: 3px solid black;
+}
+
+.lista_SYH li h4{
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.skillsYhobbies img{
+    width: 32px;
+    height: 32px;
+}
+
+/* footer*/
+footer{
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 2rem;
+    color: black;
+    background: #FFFFFF;
+}
+
+footer p{
+    padding-bottom: 15px;
+}
+
+
+
