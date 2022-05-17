@@ -1,0 +1,16 @@
+.lista__item{
+    font-size: 1.3rem;
+    list-style: none;
+    padding: 1rem 1rem 0 0;
+}
+
+.lista__item__link{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.lista__item__link:hover{
+    text-decoration: underline;
+    color: dodgerblue;
+}

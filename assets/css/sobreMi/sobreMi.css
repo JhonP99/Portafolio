@@ -1,0 +1,6 @@
+.sobreMi{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(30, 144, 255, 0.2);
+    padding: 3rem;
+}

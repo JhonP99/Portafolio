@@ -1,0 +1,35 @@
+.cabecera{
+    display: flex;
+    align-items: center;
+    background: #efecec;
+    justify-content: space-between; 
+
+}
+
+.cabecera .containerLogo{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.nameLogo{
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+@media screen and (min-width: 0) {
+    .cabecera{
+        justify-content: center;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecera{
+        justify-content: space-between;
+        padding: 1% 5rem;
+    }
+}

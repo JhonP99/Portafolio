@@ -1,1 +1,197 @@
-<h1>Hola mundo</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- reset preferences -->
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- Header -->
+    <link rel="stylesheet" href="./assets/css/body.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/header/logo.css">
+        <!-- menu -->
+        <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
+        <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
+        <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
+        
+    <!--Presentación-->    
+    <link rel="stylesheet" href="./assets/css/presentacion/lista-item.css">
+    <link rel="stylesheet" href="./assets/css/presentacion/presentacion.css">
+    <link rel="stylesheet" href="./assets/css/presentacion/presentacion-descripcion.css">
+    <link rel="stylesheet" href="./assets/css/presentacion/presentacion-imagen.css">
+    <link rel="stylesheet" href="./assets/css/presentacion/presentacion-lista.css">
+    <link rel="stylesheet" href="./assets/css/presentacion/presentacion-titulo.css">
+
+    <!-- Sobre mi -->
+    <link rel="stylesheet" href="./assets/css/sobreMi/sobreMi.css">
+    <link rel="stylesheet" href="./assets/css/sobreMi/sobreMi-descripcion.css">
+    <link rel="stylesheet" href="./assets/css/sobreMi/sobreMi-titulo.css">
+
+    <!-- Skills y hobbies -->
+    <link rel="stylesheet" href="./assets/css/skils-y-hobbies/skills-y-hobbies.css">
+    <link rel="stylesheet" href="./assets/css/skils-y-hobbies/skills-y-hobbies-lista.css">
+    <link rel="stylesheet" href="./assets/css/skils-y-hobbies/skills-y-hobbies-lista-item.css">
+    <link rel="stylesheet" href="./assets/css/skils-y-hobbies/skills-y-hobbies-titulo.css">
+
+    <!-- footer -->
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+
+    <link rel="icon" href="../src/img/2x/portafolio.png">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+    <header class="cabecera">
+        <div class="containerLogo">
+            <img class="containerLogo__logo" src="./assets/img/2x/portafolio.png" alt="Portafolio-logo">
+            <h3 class="nameLogo"> Jhon Jairo Paz Castro</h3>
+        </div>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link activo" href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__item"><a class="menu__link" href="#skills">Skills</a></li>
+                <li class="menu__item"><a class="menu__link" href="#hobbies">Hobbies</a></li>
+                <li class="menu__item"><a class="menu__link" href="#formacion">Formacion</a></li>
+                <li class="menu__item"><a class="menu__link" href="#proyectos">Proyectos</a></li>
+                <li class="menu__item"><a class="menu__link" href="mailto:jhonjairopaz99@gmail.com">jhonjairopaz99@gmail.com</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="presentacion">
+            <div class="presentacion__container">
+                <h1 class="titulo">Hola, bienvenido a mi portafolio. <br>
+                Mi nombre es Jhon J. Paz C. y soy un desarrollador web</h1>
+                <p class="descripcion">Empecé en el mundo del desarrollo gracias al programa Colombiano Mision Tic 2022 y actualmente estoy participando en el proyecto Oracle ONE Alura Latam.</p>
+                <nav class="presentacion__menu">
+                    <ul class="presentacion__menu__lista">
+                        <li class="lista__item"><a class="lista__item__link" href="https://github.com/JhonP99">Github</a></li>
+                        <li class="lista__item"><a class="lista__item__link" href="https://www.linkedin.com/in/jhon-j-paz-c-23ba621b9/">Linkedin</a></li>
+                        <li class="lista__item"><a class="lista__item__link" href="https://www.instagram.com/jhon_jairopc/?hl=es">Instagram</a></li>
+                        <li class="lista__item"><a class="lista__item__link" href="./assets/doc/Curriculum Jhon Paz.pdf">Curriculum Vitae</a></li>
+                    </ul>
+                </nav>
+                <div class="presentacion__imagen presentacion__imagen--myPhoto"></div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="sobreMi">
+            <h2 class="sobreMi__titulo">Sobre mi...</h2>
+            <p class="sobreMi__descripcion">Soy desarrollador de software con conocimientos en lenguajes como Python, Java, SQL. También manejo HTML, CSS, JavaScript, el Framework Flask. <br>
+            Cuento con un nivel de ingles básico/intermedio.<br><br> 
+            Actualmente me encuentro perfeccionando mis habilidades en los lenguajes con los que he trabajado y aprendiendo dos nuevas tecnologias basadas en JavaScript, React.js y Express.js</p>
+        </section>
+
+        <section id="skills" class="skills-Y-hobbies">
+            <h2 class="skills-y-hobbies__titulo">Skills</h2>
+            <ul class="Skills-y-hobbies__lista">
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4 class="skills-Y-hobbies__item__titulo">VS code</h4>
+                    <img class="item__imagen" src="./assets/img/skills/visualstudio.png" alt="Vscode-logo">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4> Python</h4>
+                    <img class="item__imagen" src="./assets/img/skills/python.png" alt="python-logo">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4> Java</h4>
+                    <img class="item__imagen" src="./assets/img/skills/java.png" alt="java-logo">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>ScBuilder</h4>
+                    <img class="item__imagen" src="./assets/img/skills/SceneBuilderLogo.png" alt="scenebuilder-logo">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>Sql</h4>
+                    <img class="item__imagen" src="./assets/img/skills/database.png" alt="sql-logo">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>HTML</h4>
+                    <img class="item__imagen" src="./assets/img/skills/html.png" alt="logo-html">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>CSS</h4>
+                    <img class="item__imagen" src="./assets/img/skills/css.png" alt="logo-css">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>JS</h4>
+                    <img class="item__imagen" src="./assets/img/skills/javascript.png" alt="Logo-js">
+                </li>
+            </ul>
+        </section>
+
+        <section id="hobbies" class="skills-Y-hobbies">
+            <h2 class="skills-y-hobbies__titulo">Hobbies</h2>
+            <ul class="Skills-y-hobbies__lista">
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>Ajedrez</h4>
+                    <img class="item__imagen" src="./assets/img/hobbies/ajedrez.png" alt="ajedrez-logo">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>Gym</h4>
+                    <img class="item__imagen" src="./assets/img/hobbies/pesa.png" alt="Gym-logo">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>Ver series</h4>
+                    <img class="item__imagen" src="./assets/img/hobbies/netflix.png" alt="Series-logo">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>Leer</h4>
+                    <img class="item__imagen" src="./assets/img/hobbies/leer.png" alt="libro">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>Cocinar</h4>
+                    <img class="item__imagen" src="./assets/img/hobbies/cocinero.png" alt="chef">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>Musica</h4>
+                    <img class="item__imagen" src="./assets/img/hobbies/auriculares.png" alt="audifonos">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>Programar</h4>
+                    <img class="item__imagen" src="./assets/img/hobbies/laptop.png" alt="laptop">
+                </li>
+
+                <li class="Skills-y-hobbies__lista__item">
+                    <h4>Games</h4>
+                    <img class="item__imagen" src="./assets/img/hobbies/joystick.png" alt="joystick">
+                </li>
+            </ul>
+        </section>
+
+        <!-- <section id="formacion" class="formacion">
+            <ul>
+                <li><h4>infotep logo</h4></li>
+                <li><h2>Mision Tic logo</h2></li>
+                <li><h2>Alura</h2></li>
+            </ul>
+        </section>
+
+        <section id="proyectos" class="experiencia"></section>
+
+        <section id="contacto" class="contacto"></section> -->
+
+    </main>    
+    <footer class="footer">
+        <p>Desarrollado por Jhon P </p>
+        <p>2022</p>
+    </footer>
+</body>
+</html>

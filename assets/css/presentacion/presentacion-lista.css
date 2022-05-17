@@ -1,0 +1,7 @@
+.presentacion__container .presentacion__menu{
+    display: flex;
+}
+
+.presentacion__menu__lista{
+    display: flex;
+}

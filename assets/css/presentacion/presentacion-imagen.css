@@ -1,0 +1,12 @@
+.presentacion__imagen{
+    background-color:red;
+    border: 2px solid dodgerblue;
+    border-radius: 10rem;
+    display: inline-block;
+    height:300px;
+    width: 300px;
+}
+
+.presentacion__imagen--myPhoto{
+    background: url("../../img/foto-perfil.jpg") no-repeat center / cover;;
+}
